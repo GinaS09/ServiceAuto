@@ -1,6 +1,8 @@
-public class Car implements iServiceAuto{
+package service;
+
+public class Car implements iServiceAuto {
     private String car;
-    private String repaire;
+    private String repair;
 
     @Override
     public void setCar(String car) {
@@ -8,8 +10,8 @@ public class Car implements iServiceAuto{
     }
 
     @Override
-    public void setRepare(String repaire) {
-        this.repaire=repaire;
+    public void setRepair(String repair) {
+        this.repair=repair;
     }
 
     @Override
@@ -18,8 +20,8 @@ public class Car implements iServiceAuto{
     }
 
     @Override
-    public String getRepare() {
-        return this.repaire;
+    public String getRepair() {
+        return this.repair;
     }
 
     @Override
